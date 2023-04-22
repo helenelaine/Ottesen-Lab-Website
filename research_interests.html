@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ottesen Lab</title>
+	<style type="text/css">
+	#body{
+		background-image:url('./Images/background_wavesGradient.png');
+		background-size:100% auto;
+		}
+	#wrapper{
+		width:1000px;
+		margin:0 auto;
+		font-family: Georgia, serif;
+		}
+	#nav{
+		padding:10px;
+		text-align:center;
+		}
+	 #nav a, a:visited {
+   		background-color: #49D3FF;
+   		color:black;
+   		text-align: center;
+   		text-decoration: none;
+   		display: inline-block;
+   		}
+   	#nav a:hover, a:active {
+   		color:black;
+   		background-color: #DE2D34;
+   		}
+	#dropdown-research {
+  		position: relative;
+  		display: inline-block;
+		}
+	#dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f1f1f1;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0#2);
+ 		z-index: 1;
+		}
+	#dropdown-content a {
+ 		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+		}
+	#dropdown-content a:hover {
+		background-color: #1E9CD7;
+		}
+	#dropdown-research:hover
+	#dropdown-content {
+		display: block;
+		}
+	#main{
+		padding:20px;
+		background-color:white;
+		border:3px solid #49D3FF;
+		}
+	#main a, a:visited{
+		color:#1E9CD7;
+		}
+	#main a:hover, a:active{
+		color:#DE2D34;
+		}
+	#main img:hover{
+		opacity:50%;
+		}
+	</style>
+</head>
+
+<body> 
+<div id="body"><img src="./Images/full_microbiome_banner.png" alt="Ottesen Lab Logo" align="middle" width="100%">
+
+	<!-- Wrapper division -->
+	<div id="wrapper" >
+	
+		<!-- Navbar division -->
+		<div id="nav">
+			<table class="center" width="100%" align="middle" cellspacing="10";>
+			<tr>
+				<td style="width: 25%"> <a href= "index.html" style="padding: 14px 90px;">home</a> </td>
+				<td style="width: 25%"> <div id="dropdown-research"><a href= "research_interests.html" style="padding: 5px 80px;">research interests</a>
+				<div id="dropdown-content">
+				<a href="./CockroachProject_Host-Microbe.html">Cockroach Microbiome Project</a>
+				<a href="./StreamCommunities_Project.html">Water Project</a>
+				<a href="./AntibioticResistome_Project.html">Antibiotic Resistance Ecology</a>
+				</div> </div> </td>
+				<td style="width: 25%%"> <a href= "member_info.html" style="padding: 14px 80px;">members</a> </td>
+				<td style="width: 25%%;"> <a href= "publications.html" style="padding: 14px 70px;">publications</a> </td>
+			</tr>
+			</table>
+		</div>			<!-- End nav -->
+
+		<!-- Main content division -->
+		<div id="main">
+			<h2><emp>Current Ottesen Lab Projects in Microbial Community Dynamics</emp></h2>
+			<table style="width:100%">
+			<tr>
+				<td style="width: 30%"> <a href="./CockroachProject_Host-Microbe.html"><img src="./Images/CockroachProject_ResearchTopic.jpg" width="100%" border="3px solid #00538D" ></a> </td>
+				<td style="width: 5%"></td>
+				<td style="width: 30%"> <a href="./StreamCommunities_Project.html"><img src="./Images/StreamProject_ResearchTopic.jpg" width="100%" border="3px solid #00538D"></a> </td>
+				<td style="width: 5%"></td>
+				<td style="width: 30%"> <a href="./AntibioticResistome_Project.html"><img src="./Images/AntibioticResistome_ResearchTopic.jpg" width="100%" border="3px solid #00538D"></a> </td>
+			</tr>
+			</table>
+			<p>&nbsp;</p>
+			<p>Data commonly collected and analyzed in Ottesen Lab projects include: 16S rRNA amplicons, metagenomes, metatranscriptomes, single-cell 
+			genomes, qPCR results of target genes. All research projects in the Ottesen Lab involve bioinformatic analysis of multi-dimensional data.</p>
+
+
+		</div><!-- End main -->
+
+	</div><!-- End wrapper -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div><!-- End body -->
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ottesen Lab</title>
+	<style type="text/css">
+	#body{
+		background-image:url('./Images/background_wavesGradient.png');
+		background-size:100% auto;
+		}
+	#wrapper{
+		width:1000px;
+		margin:0 auto;
+		font-family:Georgia, serif;
+		}
+	#nav{
+		padding:10px;
+		text-align:center;
+		}
+	 #nav a, a:visited {
+   		background-color: #49D3FF;
+   		color:black;
+   		text-align: center;
+   		text-decoration: none;
+   		display: inline-block;
+   		}
+   	#nav a:hover, a:active {
+   		color:black;
+   		background-color: #DE2D34;
+   		}
+   		
+	#dropdown-research {
+  		position: relative;
+  		display: inline-block;
+		}
+	#dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f1f1f1;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0#2);
+ 		z-index: 1;
+		}
+	#dropdown-content a {
+ 		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+		}
+	#dropdown-content a:hover {
+		background-color: #1E9CD7;
+		}
+	#dropdown-research:hover
+	#dropdown-content {
+		display: block;}
+
+	#main{
+		padding:20px;
+		background-color:white;
+		border:3px solid #49D3FF;
+		text-align:justify;
+		}
+	#main a, a:visited{
+		color:#1E9CD7;
+		}
+	#main a:hover, a:active{
+		color:#DE2D34;
+		}
+	#text img{
+		border:3px solid #1E9CD7;
+		}
+	</style>
+</head>
+
+<body>
+<div id="body">
+<img src="./Images/full_microbiome_banner.png" alt="Ottesen lab logo and banner" align="top" width="100%">
+	<!-- Wrapper division -->
+	<div id="wrapper" >
+	
+		<!-- Navbar division -->
+		<div id="nav">
+			<table class="center" width="100%" align="middle" cellspacing="10";>
+			<tr>
+				<td style="width: 25%"> <a href= "index.html" style="padding: 14px 90px;">home</a> </td>
+				<td style="width: 25%"> <div id="dropdown-research"><a href= "research_interests.html" style="padding: 5px 80px;">research interests</a>
+				<div id="dropdown-content">
+				<a href="./CockroachProject_Host-Microbe.html">Cockroach Microbiome Project</a>
+				<a href="./StreamCommunities_Project.html">Water Project</a>
+				<a href="./AntibioticResistome_Project.html">Antibiotic Resistance Ecology</a>
+				</div> </div> </td>
+				<td style="width: 25%%"> <a href= "member_info.html" style="padding: 14px 80px;">members</a> </td>
+				<td style="width: 25%%;"> <a href= "publications.html" style="padding: 14px 70px;">publications</a> </td>
+			</tr>
+			</table>
+		</div><!-- End nav -->
+
+		<!-- Main content division -->
+		<div id="main">
+		<div id="text"> <!-- Main text division -->
+			<h2><emp>The cockroach project: community stability and dynamics in the gut of the American cockroach</emp></h2>
+				<p>The cockroach project explores the microbiome stability and dynamics in the hindgut of the American cockroach, <em>Periplaneta 
+				americana</em>. We use the cockroach as our model host organism because it shares striking similarities in both gut morphology 
+				and microbial community composition with humans and other mammals, while requiring far less maintenance and resources than mammalian 
+				models. Unlike results from diet studies in mice (
+				<a href="https://pubmed.ncbi.nlm.nih.gov/20368178/">Turnbaugh et al. 2009</a>,
+				<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3303606/">Faith et al. 2011</a>
+				), we have found that the 16S profile of the cockroach hindgut remains stable when the 
+				host is subjected to extreme dietary shifts (<a href="./publications.html">Tinker & Ottesen, 2016</a>). Understanding communities' 
+				stability in the face of perturbation</p>
+			<img src="./Images/gnotobiotic_slant.jpg" alt="Agar slant with germ-free cockroach nymphs" align="right" width="25%" border="3px solid #1E9CD7" hspace=10px vpsace=10px />
+
+				<p>Current research topics we are pursuing in this project include:</p>
+
+				<h3>Defining the cockroach gut microbiome</h3>
+					<p>A clearer picture of the phylogenetic and functional diversity of the cockroach gut microbiota is necessary to understand its 
+					resistance to perturbations. We have characterized the communities of our insects with 16S rRNA gene sequencing, but these
+					sequences only provide so much information about the microbial community members. Sequencing single-cell genomes, metagenomes, 
+					metatranscriptomes, and cultured organisms from the gut increases our knowledge of potential microbe-microbe or host-microbe 
+					interactions that impact microbiome stability and resilience.</p>
+
+				<h3>Gnotobiotic <em>P. americana</em></h3>
+					<p>We have established a system for producing and maintaining cockroaches with germ-free guts in the lab, enabling us to conduct 
+					experiments featuring gnoto- and xeno-biotic insects. These models can be used to study the assembly of synthetic or complex microbial 
+					communities.</p>
+					
+				<img src="./Images/CockroachHost.jpg" alt="American cockroach" align="right" width="25%"  border="3px solid #1E9CD7" hspace=10px vpsace=10px/>
+				<h3>Social behavior and transmission of microbiota</h3>
+					<p>Living in colonies, cockroaches are gregarious insects whose coprophagic habits enable horizontal transmission of microbiota via feces. 
+					We use this co-housing phenomenon to observe community progression and turnover. By co-housing gnotobiotic insects with those carrying a 
+					standard lab cockroach community, we can observe how the microbiota are transmitted between individuals.</p>
+					
+				<h3>Nitrogen balance and in community stability</h3>
+					<p>Metabolic waste nitrogen is generally excreted as urea, ammonia, or uric acid. In humans, uric acid accumulation leads to a 
+					painful condition called gout; cockroaches, however, purposefully store uric acid within specialized cells for utilization during 
+					times of nitrogen depletion. We are currently investigating the role of host uric acid stores in maintaining microbial community 
+					stability during periods of nutritional scarcity.
+					<p>&nbsp;</p>
+			</div>  <!-- End main text -->
+			<div id="picLinks">  <!-- picLinks division-->
+				<table style="width:100%;align:middle;text-align:center">
+					<tr>
+						<td style="width: 20%"><h4>Lab members working on this project:</h4></td>
+						<td style="width: 25%"> <a href="./member_info.html"><img src="./Images/HelenDukes.jpg" alt="portrait of Helen Dukes" width="60%" border="3px solid #00538D"></a> </td>
+						<td style="width: 25%"> <a href="./member_info.html"><img src="./Images/RachelDockman.jpg" alt="portrait of Rachel Dockman" width="60%" border="3px solid #00538D"></a> </td>
+						<td style="width: 25%"> <a href="./member_info.html"><img src="./Images/JoseyDyer.jpg" alt="portrait of Josey Dyer" width="60%"  border="3px solid #00538D"></a> </td>
+					</tr>
+					<tr>
+						<td style="width: 20%"></td>
+						<td style="width: 25%">Helen Dukes</td>
+						<td style="width: 25%">Rachel Dockman</td>
+						<td style="width: 25%">Josey Dyer</td>
+					</tr>
+					</table>
+			</div> <!-- End picLinks -->
+		</div><!-- End main -->
+	</div><!-- End wrapper -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div><!-- End body -->
+</div><!-- End body -->
+</body>
+
+</html>
